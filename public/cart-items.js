@@ -4,8 +4,6 @@ const cartItems = {
   template: `
   <div>
     <section ng-repeat="item in $ctrl.cartlist">
-
-    {{3+4}}
       <input type="text" ng-blur="$ctrl.updateItem(item)" ng-model="item.product">
       <input type="text" ng-blur="$ctrl.updateItem(item)" ng-model="item.price">
       <input type="text" ng-blur="$ctrl.updateItem(item)" ng-model="item.quantity">
