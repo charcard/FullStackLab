@@ -4,9 +4,9 @@ const cartItems = {
   template: `
   <div>
     <section ng-repeat="item in $ctrl.cartlist">
-      <input type="text" ng-blur="$ctrl.updateItem(item)" ng-model="item.product">
-      <input type="text" ng-blur="$ctrl.updateItem(item)" ng-model="item.price">
-      <input type="text" ng-blur="$ctrl.updateItem(item)" ng-model="item.quantity">
+      <input type="text" ng-blur="$ctrl.updateItem(item);" ng-model="item.product">
+      <input type="text" ng-blur="$ctrl.updateItem(item);" ng-model="item.price">
+      <input type="text" ng-blur="$ctrl.updateItem(item);" ng-model="item.quantity">
       <a href="" ng-click="$ctrl.deleteItem(item.id);">X</a>
     </section>
   </div>
